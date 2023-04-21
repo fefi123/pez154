@@ -2,21 +2,26 @@
 * {
     margin: 0;
     padding: 0;
-    font-style: italic;
     color: black;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
 }
 
 /* general */
 
-a {
+header a {
     text-decoration: none;
+    color: black;
 }
 
 li {
     list-style-type: none;
 }
 
-.img-fluid {
+.banner {
     width: 100%;
     height: auto;
 }
@@ -28,6 +33,7 @@ h1 {
     margin-top: 10px;
     height: 45px;
 }
+
 
 /* HEADER */
 
@@ -46,8 +52,6 @@ ul {
     flex-wrap: wrap;
     align-content: flex-start;
     font-size: 30px;
-    
-
 }
 
 li {
@@ -59,8 +63,26 @@ li {
 
 main {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
     justify-content: space-evenly;
+}
+
+.contenidoprincipal{
+    width: 80%;
+    height: auto;
+    background-color: bisque;
+}
+
+.container {
+    max-width:100%;
+}
+
+/* index */
+.imagenfondo {
+    width: 100%;
+    height: auto;
+
 }
 
 .MasVendido {
@@ -70,16 +92,6 @@ main {
     justify-content: space-between;
     padding: 0px;
 }
-
-.grid {
-    display: grid;
-    grid-template-columns: 33,33% 33,33% 33,33%;
-    grid-template-rows: auto auto auto;
-}
-
-
-
-
 
 /* footer */
 
