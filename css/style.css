@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    font-weight: 200;
+    background-color: bisque;
 }
 
 /* general */
@@ -34,6 +34,10 @@ h1 {
     height: 45px;
 }
 
+h3 {
+    margin-top: 10px;
+}
+
 
 /* HEADER */
 
@@ -44,6 +48,10 @@ header {
     top: 0;
     justify-content: space-between;
     align-items: center;
+}
+
+nav {
+    width: 80%;
 }
 
 ul {
@@ -69,9 +77,9 @@ main {
 }
 
 .contenidoprincipal{
-    width: 80%;
+    width: 100%;
     height: auto;
-    background-color: bisque;
+    background-color: white;
 }
 
 .container {
@@ -93,6 +101,13 @@ main {
     padding: 0px;
 }
 
+.tarjetas {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
 /* footer */
 
 footer {
@@ -101,4 +116,10 @@ footer {
     justify-content: space-around;
     align-items: center;
     background-color: beige;
+}
+
+.redes a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
 }
