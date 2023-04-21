@@ -1,0 +1,125 @@
+/* sacar bordes */
+* {
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: bisque;
+}
+
+/* general */
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style-type: none;
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    height: 45px;
+}
+
+h3 {
+    margin-top: 10px;
+}
+
+
+/* HEADER */
+
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: beige;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    width: 80%;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    font-size: 30px;
+}
+
+li {
+    padding: 8px;
+    margin: 8px;
+}
+
+/* MAIN */
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.contenidoprincipal{
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+.container {
+    max-width:100%;
+}
+
+/* index */
+.imagenfondo {
+    width: 100%;
+    height: auto;
+
+}
+
+.MasVendido {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px;
+}
+
+.tarjetas {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: beige;
+}
+
+.redes a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
